@@ -1,0 +1,72 @@
+.home-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* min-width: 200px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px; */
+  text-align: center;
+}
+
+.emoji.left {
+  border: 1px solid #024393;
+  border-radius: 50%;
+  padding: 0.5rem;
+  background-color: hsl(213.1, 97.3%, 29.2%);
+  color: white;
+}
+
+.home-card-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-card-name {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.home-card-info {
+  font-size: 1.4rem;
+}
+
+.home-card-amount {
+  color: #024695;
+  font-size: 2.3rem;
+}
+
+.home-card-chart {
+  min-height: 30vh;
+}
+
+.grid-column-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.heading-inside-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-transaction-row {
+  padding: 0.5rem 0.2rem;
+  border-bottom: 1px solid gray;
+}
+
+.home-transaction-row:last-child {
+  border-bottom: none;
+}
+
+.home-transaction-row-name {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(38, 37, 37);
+}
+
+.home-transaction-row-amount {
+  font-size: 1.4rem;
+  font-weight: 500;
+}

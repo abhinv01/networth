@@ -1,0 +1,38 @@
+.horizontal-card {
+  display: flex;
+  align-items: center;
+  background-color: #fffefe;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 0.8rem;
+  min-width: 70px;
+  margin: 0.8rem;
+  font-family: Arial, sans-serif;
+}
+
+.emoji-section {
+  margin-right: 1rem;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.data-set {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Optional: To ensure equal spacing for datasets */
+.data-set:last-child {
+  margin-bottom: 0;
+}
+
+.home-transaction-row {
+  display: flex;
+  justify-content: space-between;
+}
